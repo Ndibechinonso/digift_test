@@ -1,5 +1,5 @@
 A test app built with React and TailwindCSS
 
-Githublink: 
+Github Link: https://github.com/Ndibechinonso/digift_test.git
 
-Hosted Link: 
+Hosted Link: https://digiftnonso.netlify.app/
