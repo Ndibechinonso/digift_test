@@ -6,7 +6,7 @@ const ArrivalSection = () => {
         Latest Arrivals
       </h2>
       <div className="flex flex-col md:flex-row gap-x-5">
-        <div className="basis-1 md:basis-1/4 filter_container font-semibold bg-arrivalbg max-w-[272px] p-8">
+        <div className="basis-1 md:basis-1/4 filter_container font-semibold bg-arrivalbg max-h-[663px] max-w-[272px] p-8">
           <div className="flex flex-row justify-between mb-12">
             {" "}
             <h3 className="text-arrivalheader text-base">Filters</h3>{" "}
