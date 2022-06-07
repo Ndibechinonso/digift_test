@@ -1,0 +1,7 @@
+.usp_container {
+  background-image: url("../../Assets/images/usp_bg_img.svg");
+}
+.usp_content {
+  background: linear-gradient(180deg, #0073f5 0%, #006be0 100%);
+  mix-blend-mode: soft-light !important;
+}
