@@ -27,6 +27,36 @@ export const ArrivalCardArray = [{
     cardName: "Amazon Gift Card",
     cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
     cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
+  },
+  {
+    cardName: "Amazon Gift Card",
+    cardDescription: "Amazon Gift Card is a global fashion destination for 20-somethings, selling all the freshest styles complemented by exclusive content....",
+    cardFee: "This card has a fee of $ 0.99"
   }]
 
   export const TestimonialCardArray = [{

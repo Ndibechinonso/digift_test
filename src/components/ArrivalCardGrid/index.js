@@ -7,7 +7,7 @@ import { ArrivalCardArray } from "../../data";
 
 const ArrivalCardGrid = () => {
     const [filteredArrivalArray, setFilteredArrivalArray] = useState([])
-    const [arrayLength, setArrayLength] = useState(2)
+    const [arrayLength, setArrayLength] = useState(5)
 
     useEffect(()=>{
        const newArray = ArrivalCardArray.filter((card, index)=> index <= arrayLength)
@@ -15,7 +15,7 @@ const ArrivalCardGrid = () => {
     }, [arrayLength])
     
     const showMoreProducts = () =>{
-        setArrayLength((arrayLength => arrayLength + 3)) 
+        setArrayLength((arrayLength => arrayLength + 6)) 
     }
   return (
     <>
