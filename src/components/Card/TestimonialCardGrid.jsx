@@ -3,7 +3,7 @@ import { TestimonialCardArray } from "../../data";
 
 const TestimonialCardGrid = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-6">
+    <div className="flex flex-col md:flex-row items-center gap-6">
       {TestimonialCardArray.map((card, index) => (
         <Card
           key={index}

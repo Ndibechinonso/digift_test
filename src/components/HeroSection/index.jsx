@@ -13,8 +13,8 @@ const HeroSection = ({ homepage, header, text, businesspage }) => {
           {homepage ? (<><img src={leftcard} alt="" className="absolute mob_img left-0 bottom-[20px]" />
             <img src={rightcard} className="absolute mob_img right-0 bottom-[20px]" alt="" /> </>) : null}
           <div className="relative m-auto w-[80%] md:w-[690px]">
-            <> {homepage ? <><img src={herovectorleft} alt="" className="absolute mob_img top-0 md:top-[30px]" />
-              <img src={herovectorright} className="absolute mob_img right-0 top-0 md:top-[30px]" alt="" /></> : <div className="flex flex-row gap-x-2 justify-center mb-8"><img src={uspStar} alt="" /><p>Digift helps businesses</p></div>}</>
+            <> {homepage ? <><img src={herovectorleft} alt="" className="absolute mob_img left-[-20px] md:left-0 top-0 md:top-[30px]" />
+              <img src={herovectorright} className="absolute mob_img right-[-20px] md:right-0 top-0 md:top-[30px]" alt="" /></> : <div className="flex flex-row gap-x-2 justify-center mb-8"><img src={uspStar} alt="" /><p>Digift helps businesses</p></div>}</>
             <h1 className="text-center font-bold text-[24px] md:text-[64px]">
               {header}
             </h1>

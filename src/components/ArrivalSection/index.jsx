@@ -1,12 +1,12 @@
 import ArrivalCardGrid from "../ArrivalCardGrid";
 const ArrivalSection = () => {
   return (
-    <div className="pt-[88px] pb-[102px]">
+    <div className="pt-[88px] pb-[102px] ">
       <h2 className="text-[32px] font-bold mb-12 text-center md:text-left">
         Latest Arrivals
       </h2>
-      <div className="flex flex-col md:flex-row gap-x-5">
-        <div className="basis-1 md:basis-1/4 filter_container font-semibold bg-arrivalbg max-h-[663px] max-w-[272px] p-8">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-x-5">
+        <div className="basis-1 md:basis-1/4 filter_container font-semibold bg-arrivalbg max-h-[663px] max-w-[272px] p-8 ">
           <div className="flex flex-row justify-between mb-12">
             {" "}
             <h3 className="text-arrivalheader text-base">Filters</h3>{" "}
