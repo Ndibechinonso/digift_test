@@ -5,7 +5,7 @@ import Button from "../Button";
 import whiteArrow from "../../Assets/images/white_arrow.svg";
 import ashArrow from "../../Assets/images/ash_arrow.svg";
 import invoice from "../../Assets/images/invoice.svg";
-
+import rightarrow from "../../Assets/images/arrow_right.svg"
 const Card = ({
   testimonials,
   cardName,
@@ -44,8 +44,8 @@ const Card = ({
             <span className="text-xs">{cardFee}</span>
           </div>
           <Button
-            className="text-sm bg-herobg rounded text-white min-w-[100%] py-[11.5px]"
-            text="Purchase card"
+            className="text-sm bg-herobg rounded text-white min-w-[100%] py-[11.5px] justify-center gap-x-4"
+            text="Purchase card" icon={rightarrow}
           />
         </div>
       )}
